@@ -1,18 +1,33 @@
-[stderr] INFO:     Started server process [42893]
+[stderr] INFO:     Started server process [3378]
 [stderr] INFO:     Waiting for application startup.
 [stderr] INFO:     Application startup complete.
 [stderr] INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
-INFO:     127.0.0.1:52673 - "GET /health HTTP/1.1" 200 OK
-[stderr] INFO:     ('127.0.0.1', 52674) - "WebSocket /ws" [accepted]
-[stderr] 2026-07-12 15:58:16 INFO     [codeboarding_pro.ws.server:258] WebSocket connected: session 99febf2f-c83e-432a-83c4-55e5b0461d2a
+INFO:     127.0.0.1:50279 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50280 - "GET /health HTTP/1.1" 200 OK
+[stderr] INFO:     ('127.0.0.1', 50281) - "WebSocket /ws" [accepted]
+[stderr] 2026-07-18 14:02:53 INFO     [codeboarding_pro.ws.server:258] WebSocket connected: session 387dc6ba-94f9-404c-bb11-4053ba0f695f
 [stderr] INFO:     connection open
-[stderr] 2026-07-12 15:58:16 INFO     [tool_registry.manifest:309] has_required_tools: csharp unavailable (dotnet missing); skipping check
-[stderr] 2026-07-12 15:58:16 INFO     [codeboarding_pro.lsp.bootstrap:56] LSP startup attempt 1/3
-[stderr] 2026-07-12 15:58:16 INFO     [codeboarding_pro.session:187] Session 99febf2f-c83e-432a-83c4-55e5b0461d2a initialized: repo=/Users/namanjindal/Documents/pw/fsd-may-26-git-ex, project=fsd-may-26-git-ex, output=/Users/namanjindal/Documents/pw/fsd-may-26-git-ex/.codeboarding
-[stderr] 2026-07-12 15:58:17 WARNING  [static_analyzer.scanner:50] No total code count found in Tokei output
-[stderr] 2026-07-12 15:58:17 INFO     [static_analyzer:212] No supported languages detected in /Users/namanjindal/Documents/pw/fsd-may-26-git-ex; no LSP clients to start.
-[stderr] 2026-07-12 15:58:17 INFO     [codeboarding_pro.file_monitor:106] FileMonitor started for /Users/namanjindal/Documents/pw/fsd-may-26-git-ex
-[stderr] 2026-07-12 15:58:17 INFO     [codeboarding_pro.session:205] Session 99febf2f-c83e-432a-83c4-55e5b0461d2a: FileMonitor activated
-[stderr] 2026-07-12 15:58:17 WARNING  [codeboarding_pro.head_watcher:69] HeadWatcher: could not resolve git-dir for /Users/namanjindal/Documents/pw/fsd-may-26-git-ex: Command '['git', 'rev-parse', '--git-dir']' returned non-zero exit status 128. — disabled
-[stderr] 2026-07-12 15:58:17 INFO     [codeboarding_pro.session:250] Session 99febf2f-c83e-432a-83c4-55e5b0461d2a: LSP wiring complete
-[stderr] 2026-07-12 15:58:17 INFO     [codeboarding_pro.lsp.bootstrap:67] LSP clients started successfully (attempt 1)
+[stderr] INFO:     ('127.0.0.1', 50282) - "WebSocket /ws" [accepted]
+[stderr] 2026-07-18 14:02:53 INFO     [codeboarding_pro.ws.server:258] WebSocket connected: session 03b1ec0e-471f-4e44-a28f-4f18d1835e11
+[stderr] INFO:     connection open
+[stderr] 2026-07-18 14:02:53 INFO     [tool_registry.manifest:309] has_required_tools: csharp unavailable (dotnet missing); skipping check
+[stderr] 2026-07-18 14:02:53 INFO     [codeboarding_pro.lsp.bootstrap:56] LSP startup attempt 1/3
+[stderr] 2026-07-18 14:02:53 INFO     [codeboarding_pro.session:187] Session 03b1ec0e-471f-4e44-a28f-4f18d1835e11 initialized: repo=/Users/namanjindal/Documents/pw/fsd-may-26-git-ex, project=fsd-may-26-git-ex, output=/Users/namanjindal/Documents/pw/fsd-may-26-git-ex/.codeboarding
+[stderr] 2026-07-18 14:02:53 INFO     [tool_registry.manifest:309] has_required_tools: csharp unavailable (dotnet missing); skipping check
+[stderr] 2026-07-18 14:02:53 INFO     [codeboarding_pro.lsp.bootstrap:56] LSP startup attempt 1/3
+[stderr] 2026-07-18 14:02:53 INFO     [codeboarding_pro.session:187] Session 387dc6ba-94f9-404c-bb11-4053ba0f695f initialized: repo=/Users/namanjindal/Documents/pw/fsd-may-26, project=fsd-may-26, output=/Users/namanjindal/Documents/pw/fsd-may-26/.codeboarding
+[stderr] 2026-07-18 14:02:54 INFO     [static_analyzer:212] No supported languages detected in /Users/namanjindal/Documents/pw/fsd-may-26-git-ex; no LSP clients to start.
+[stderr] 2026-07-18 14:02:54 INFO     [codeboarding_pro.file_monitor:106] FileMonitor started for /Users/namanjindal/Documents/pw/fsd-may-26-git-ex
+[stderr] 2026-07-18 14:02:54 INFO     [codeboarding_pro.session:205] Session 03b1ec0e-471f-4e44-a28f-4f18d1835e11: FileMonitor activated
+[stderr] 2026-07-18 14:02:54 INFO     [codeboarding_pro.head_watcher:48] HeadWatcher started on /Users/namanjindal/Documents/pw/fsd-may-26-git-ex/.git/HEAD
+[stderr] 2026-07-18 14:02:54 INFO     [codeboarding_pro.session:250] Session 03b1ec0e-471f-4e44-a28f-4f18d1835e11: LSP wiring complete
+[stderr] 2026-07-18 14:02:54 INFO     [codeboarding_pro.lsp.bootstrap:67] LSP clients started successfully (attempt 1)
+[stderr] 2026-07-18 14:02:55 WARNING  [static_analyzer.typescript_config_scanner:59] No TypeScript configuration files found in /Users/namanjindal/Documents/pw/fsd-may-26
+[stderr] 2026-07-18 14:02:55 INFO     [static_analyzer:111] No TypeScript config files found, using repository root for JavaScript
+[stderr] 2026-07-18 14:02:55 INFO     [static_analyzer:227] Starting engine LSP client for JavaScript at /Users/namanjindal/Documents/pw/fsd-may-26
+[stderr] 2026-07-18 14:02:55 INFO     [static_analyzer:252] JavaScript LSP start: 0.8s
+[stderr] 2026-07-18 14:02:55 INFO     [codeboarding_pro.file_monitor:106] FileMonitor started for /Users/namanjindal/Documents/pw/fsd-may-26
+[stderr] 2026-07-18 14:02:55 INFO     [codeboarding_pro.session:205] Session 387dc6ba-94f9-404c-bb11-4053ba0f695f: FileMonitor activated
+[stderr] 2026-07-18 14:02:55 INFO     [codeboarding_pro.head_watcher:48] HeadWatcher started on /Users/namanjindal/Documents/pw/fsd-may-26/.git/HEAD
+[stderr] 2026-07-18 14:02:55 INFO     [codeboarding_pro.session:250] Session 387dc6ba-94f9-404c-bb11-4053ba0f695f: LSP wiring complete
+[stderr] 2026-07-18 14:02:55 INFO     [codeboarding_pro.lsp.bootstrap:67] LSP clients started successfully (attempt 1)
